@@ -1,0 +1,384 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.first {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./pic/Jeep-car.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #669197;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar h1 {
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.navlink {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navlink li {
+    margin: 0 10px;
+}
+
+.navlink a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.link1 {
+    background-color: #ffbfce;
+    border-radius: 20px;
+    color: black;
+}
+
+.navlink a:hover {
+    background-color: #ffbfce;
+    border-radius: 20px;
+    color: black;
+}
+
+.navResp {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.bodytxt {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 100vh;
+    color: aliceblue;
+    text-align: center;
+   
+    padding-bottom: 20px;
+}
+
+.bodytxt pre {
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.div2 {
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.div2 i {
+    margin-bottom: 40px;
+    padding: 20px;
+    font-size: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.div2 i:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.sec {
+    padding: 20px;
+    text-align: center;
+}
+
+.tit {
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.divsec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+}
+
+.divsec1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 70%;
+}
+
+.hr {
+    border-bottom: 2px solid black;
+    width: 30%;
+}
+
+.btn {
+    width: 180px;
+    border-radius: 40px;
+    background-color: #feb7c7;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fea3b8;
+    color: black;
+}
+
+.divsec div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec2 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pic img {
+    border-radius: 20px;
+    box-shadow: 0px 5px 25px rgb(40, 40, 40);
+    transition: 0.7s ease;
+    width: 100%;
+    max-width: 300px;
+}
+
+.pic img:hover {
+    transform: scale(1.1);
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.vid video {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.divsec3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 223px;
+}
+
+.divgird {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    justify-items: stretch;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.gir1 {
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: azure;
+    gap: 20px;
+    display: grid;
+}
+
+.gir2 {
+    font-size: 20px;
+    display: grid;
+}
+
+.gir2 :nth-child(odd) {
+    background-color: #bcbbbb;
+}
+
+.sec3 {
+    height: 100%;
+}
+
+.sec4 {
+    background-color: #669197;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form1 {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  /*   width: 100%;
+    max-width: 600px; */
+}
+
+.form2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 20px;
+    justify-items: center;
+   /*  width: 100%;
+    max-width: 600px; */
+}
+
+.tit1 {
+    font-size: 36px;
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.divsec2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2 {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.form1 input {
+    padding: 10px;
+   /*  width: 100%; */
+}
+
+@media (max-width: 600px) {
+    .navbar h1 {
+        font-size: 20px;
+    }
+
+    .navlink {
+        display: none;
+    }
+
+    .navResp {
+        display: block;
+    }
+
+    .bodytxt pre {
+        font-size: 18px;
+    }
+
+    .sec .tit {
+        font-size: 24px;
+    }
+
+    .divsec1 {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+
+    .pic img {
+        max-width: 100%;
+    }
+
+    .vid video {
+        max-width: 100%;
+    }
+
+    .form1, .form2 {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .navbar h1 {
+        font-size: 22px;
+    }
+
+    .navlink a {
+        padding: 8px 16px;
+    }
+
+    .bodytxt pre {
+        font-size: 20px;
+    }
+
+    .sec .tit {
+        font-size: 28px;
+    }
+
+    .divsec1 {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 9px 18px;
+    }
+
+    .pic img {
+        max-width: 45%;
+    }
+
+    .vid video {
+        max-width: 90%;
+    }
+
+    .form1, .form2 {
+        width: 90%;
+        padding: 0 20px;
+    }
+}
